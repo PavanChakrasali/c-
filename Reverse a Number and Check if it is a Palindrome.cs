@@ -10,11 +10,8 @@ class Program
         while (num > 0)
         {
             rem = num % 10;
-            Console.WriteLine(rem);
             reverse = reverse * 10 + rem;
-            Console.WriteLine(reverse);
             num /= 10;
-            Console.WriteLine(num);
         }
         Console.WriteLine("Given number is = {0}", temp);
         Console.WriteLine("Its reverse is  = {0}", reverse);
